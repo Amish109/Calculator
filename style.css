@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(81, 93, 93);
+    color: black;
+}
+.border{
+    /* border: 1px solid black; */
+}
+.border_right{
+    /* border-right: 0px !important; */
+}
+.border_left{
+    /* border-left: 0px !important; */
+}
+.border_top{
+    /* border-top: 0px !important; */
+}
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+}
+.leftDiv{
+    /* border-right: 1px solid black; */
+    /* border: 0px 0px; */
+    width: 70%;
+    height: 99.90vh;
+    float: left;
+}
+ .header{
+    padding: 10px;
+    height: 10vh;
+    width: 100%;
+    /* text-align: center; */
+}
+.rightDiv{
+    /* border: 1px solid red; */
+    /* border: 0px 0px; */
+    width: 30%;
+    height:99.90vh ;
+    float: left;
+
+}
+h1{
+    color: white;
+}
+
+.display{
+    height: 20vh;
+    width: 100%;
+}
+
+.leftDiv input{
+    font-weight:bold;
+    text-align: right;
+    padding-right: 10px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    border: 0px;
+    outline: 0px;
+    width: 100%;
+    height:9.99vh;
+    background-color: black;
+    color: white;
+
+}
+.leftDiv .buttons button{
+    font-size: 25px;
+    width: 25%;
+    height: 13.90vh;
+    background-color: #636363;
+}
+
+.leftDiv .buttons button:hover{
+    background-color: #858585;
+    color: white !important;
+}
+#history{
+    border-left: 0 !important;
+    border: 2px solid black;
+    height:75.70vh ;
+    width: 100%;
+    overflow-y: auto;
+    scrollbar-color: darkgray #858585;
+}
+.Historybutton ,.Historybutton button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: gray; */
+    /* vertical-align: center; */
+    /* margin: auto; */
+    /* padding: 10px; */
+}
+.Historybutton button,#svg{
+    background-color: rgb(101, 97, 97);
+    font-size: 15px;
+}
+.history{
+    padding-right: 20px;
+    border: 1px solid black;
+    /* color: black; */
+    border-left:0px !important ;
+    border-top:0px !important ;
+    width: 100%;
+    height: 20vh;
+    text-align: end;
+    font-size: 40px;
+}
+#history > p{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+#history button{
+   float:left;
+   cursor: pointer;
+}
