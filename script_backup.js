@@ -54,7 +54,7 @@ function clearInput() {
 function Result() {
     if (input.value != 0) {
         output.value = input.value + "=";
-        input.value = customEValue(input.value);
+        input.value = eval(input.value);
         showHistory();
     }
 
@@ -101,7 +101,7 @@ function clearHistory() {
 
 function Percentage(){
    operator=leftOperatorValue[leftOperatorValue.length-1]
-   var leftValueEvaluate=customEValue(leftOperatorValue.slice(0,-1));
+   var leftValueEvaluate=eval(leftOperatorValue.slice(0,-1));
    console.log(leftOperatorValue)
    console.log(currentValue);
 
